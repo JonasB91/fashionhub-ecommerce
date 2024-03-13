@@ -5,6 +5,8 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Store from './components/Store';
 import Home from './components/Home';
+import LoginPage from './components/LoginPage'
+import SignUpPage from './components/SignUpPage'
 
 const App = () => {
   return (
@@ -15,7 +17,9 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/store" element={<Store />} /> {/* Provide an element for the root route */}
+          <Route path="/store" element={<Store />} />
+          <Route path="/login" element={<LoginPage />} />
+          <Route path="/signup" element={<SignUpPage />} />
         </Routes>
       </div>
     </Router>
