@@ -25,3 +25,6 @@ dist-ssr
 
 # Hide node_modules etc
 node_modules/
+
+# Ignore .env file
+.env
