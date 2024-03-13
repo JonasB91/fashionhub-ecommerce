@@ -16,3 +16,4 @@ firebase.initializeApp(firebaseConfig)
 
 export default auth = firebase.auth();
 
+// Måste testa med en comment här för att se om env filen försvinner
