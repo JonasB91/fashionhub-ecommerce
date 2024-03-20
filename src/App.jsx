@@ -6,12 +6,14 @@ import Contact from './components/Contact';
 import Store from './components/Store';
 import Home from './components/Home';
 import AccountPage from './components/AccountPage';
+import { ProductProvider } from '../src/context/ProductContext';
 
 const App = () => {
   return (
     <Router>
       <div>
         <Navbar />
+        <ProductProvider>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -19,6 +21,7 @@ const App = () => {
           <Route path="/store" element={<Store />} />
           <Route path="/login" element={<AccountPage />} />
         </Routes>
+        </ProductProvider>
       </div>
     </Router>
   );
