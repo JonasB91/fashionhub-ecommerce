@@ -22,10 +22,7 @@ const Navbar = () => {
                     </Link>
                     <div className="flex items-center space-x-5">
                     <Link to="/login" className="text-white text-1xl">
-                       Login
-                    </Link>
-                    <Link to="/signup" className="text-white text-1xl">
-                       Register
+                       Login & Register
                     </Link>
                     </div>
                 </div>

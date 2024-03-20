@@ -5,8 +5,7 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Store from './components/Store';
 import Home from './components/Home';
-import LoginPage from './components/LoginPage'
-import SignUpPage from './components/SignUpPage'
+import AccountPage from './components/AccountPage';
 
 const App = () => {
   return (
@@ -18,8 +17,7 @@ const App = () => {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/store" element={<Store />} />
-          <Route path="/login" element={<LoginPage />} />
-          <Route path="/signup" element={<SignUpPage />} />
+          <Route path="/login" element={<AccountPage />} />
         </Routes>
       </div>
     </Router>
